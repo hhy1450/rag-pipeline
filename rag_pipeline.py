@@ -155,7 +155,6 @@ class VectorStore:
 
     不做索引结构（无 FAISS/ANN），暴力计算 dot product。
     数据量 < 10000 条时完全够用，且你清楚每一步在算什么。
-    面试时能讲出它和 FAISS 的 trade-off 就是加分项。
     """
 
     def __init__(self):

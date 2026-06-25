@@ -1,4 +1,4 @@
 .venv/
-  __pycache__/
-  .env
-  run.bat
+__pycache__/
+.env
+*.pyc
